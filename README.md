@@ -1,0 +1,66 @@
+# Awesome Visual Document Generation
+
+# Overview
+A curated list of resources on Generative Visual Documents, focusing on the automated creation of information-dense layouts like Slides, Posters, and Structured Diagrams...
+
+## 🎉 News
+- **[2026-2-28]** 🔥 We release an open-source resource to help the community easily track recent VISDoc-Generation research!
+
+## 📖 Contents
+- [Overview](#overview)
+- [🎉 News](#-news)
+- [📖 Contents](#-contents)
+- [🔍 Emerging Trends](#-emerging-trends)
+- [📄 Slides Generation](#-slides-generation)
+- [📄 Poster Generation](#-poster-generation)
+- [📄 Diagram Generation](#-diagram-generation)
+- [📄 Datasets & Benchmarks](#-datasets-and-benchmarks)
+- [📄 Visual Text Generation](https://github.com/Yuliang-Liu/AWESOME-OCR-LLM?tab=readme-ov-file#-visual-text-generation)
+- [📄 Agentic Image Editing](#-agentic-image-editing)
+
+
+
+## 🔍 Emerging Trends
+
+- **Agentic Workflows**: Moving beyond one-shot generation to iterative, conversational editing agents.
+- **Editable Formats**: Shifting from pixel-based output to structured, editable files (PPTX, SVG, DSL).
+
+
+## 🖥️ Slides Generation 
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| - |  `NoteBookLM` | Google | Maybe Support Slide Edit | ---| Feb. 2026 |
+| - |  `AutoFigure-Edit` | Engineering School, Westlake University  |--- | [![GitHub Stars](https://img.shields.io/github/stars/ResearAI/AutoFigure-Edit?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ResearAI/AutoFigure-Edit)| Feb. 2026 |
+| <a href="https://arxiv.org/abs/2602.03828"><img src="./figs/ICLR-logo.png" width="80"></a> |  `AutoFigure` | Engineering School, Westlake University  | AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations | [![GitHub Stars](https://img.shields.io/github/stars/ResearAI/AutoFigure?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ResearAI/AutoFigure)| Feb. 2026 |
+| -  | `Edit-Banana` | T-DataLab, School of Computer Science | Edit Banana: Universal Content Re-Editor: Make the Uneditable, Editable| [![GitHub Stars](https://img.shields.io/github/stars/BIT-DataLab/Edit-Banana?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/BIT-DataLab/Edit-Banana) | Feb. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.04390 )  | `SciFig` | Johns Hopkins University | SciFig: Towards Automating Scientific Figure Generation | --- | Jan. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.23265 )  | `PaperBanana` | Peking University | PaperBanana: Automating Academic Illustration for AI Scientists | [![GitHub Stars](https://img.shields.io/github/stars/dwzhu-pku/PaperBanana?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dwzhu-pku/PaperBanana) | Jan. 2026 |
+| -  | `Paper2Any (Paper2PPT/PDF2PPT)` | OpenDCAI | Paper2Any: Focus on paper multimodal workflows: from paper PDFs/screenshots/text to one-click generation of model diagrams, technical roadmaps, experimental plots, and slide decks| [![GitHub Stars](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/OpenDCAI/Paper2Any) | Oct. 2025 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.27452 )  | ` VisPainter ` |  Nankai University | From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration | [![GitHub Stars](https://img.shields.io/github/stars/HerzogFL/VisPainter?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HerzogFL/VisPainter) | Oct. 2025 |
+
+## 📜 Poster Generation
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| <a href="https://arxiv.org/abs/2602.12127"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `PosterOmni` | The Hong Kong University of Science and Technology (Guangzhou)  | PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback | [![GitHub Stars](https://img.shields.io/github/stars/MeiGen-AI/PosterOmni?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/MeiGen-AI/PosterOmni)| Feb. 2026 |
+| <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Gao_PosterMaker_Towards_High-Quality_Product_Poster_Generation_with_Accurate_Text_Rendering_CVPR_2025_paper.pdf"><img src="./figs/CVPR-logo.jpg" width="80"></a>  | `Postermaker` | University of Science and Technology of China   | Postermaker: Towards high-quality product poster generation with accurate text rendering |[![GitHub Stars](https://img.shields.io/github/stars/alimama-creative/PosterMaker?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/alimama-creative/PosterMaker)| Apr. 2025 |
+## 📊 Diagram Generation
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| <a href="https://arxiv.org/abs/2512.13303"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `ShowTable` | USTC | ShowTable: Unlocking Creative Table Visualization with Collaborative Reflection and Refinement | [![GitHub Stars](https://img.shields.io/github/stars/ali-vilab/ShowTable?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ali-vilab/ShowTable)| Dec. 2025 |
+
+## 📚 Datasets & Benchmarks
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| <a href="https://arxiv.org/abs/2602.20903"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `TextPecker` | HUST| TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering | [![GitHub Stars](https://img.shields.io/github/stars/CIawevy/TextPecker?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/CIawevy/TextPecker)| Feb. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.27452 )  | ` MiLDEBench ` |  University of California, Davis  | MiLDEdit: Reasoning-Based Multi-Layer Design Document Editing（. Examples of MiLDEBench. Our benchmark is the first targeting to transparent-background, multi-layer design document editing.） | --- | Jan. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22373 )  | `  VisJudge-Bench ` |  The Hong Kong University of Science and Technology (Guangzhou)  | VisJudge-Bench: Aesthetics and Quality Assessment of Visualizations | [![GitHub Stars](https://img.shields.io/github/stars/HKUSTDial/VisJudgeBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HKUSTDial/VisJudgeBench) | Oct. 2025 |
+
+## 🖼️ Agentic Image Editing
+| Venue | Name | Primary affiliation | Title  | GitHub | Date |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.09084 )  | ` Agent Banana` | TAMU | Agent Banana: High-Fidelity Image Editing with Agentic Thinking and Tooling | [![GitHub Stars](https://img.shields.io/github/stars/taco-group/agent-banana?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/taco-group/agent-banana)| Jan. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.18543 )  | ` GenAgent` | Fudan University  | GenAgent: Scaling Text-to-Image Generation via Agentic Multimodal Reasoning | [![GitHub Stars](https://img.shields.io/github/stars/deep-kaixun/GenAgent?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/deep-kaixun/GenAgent)| Jan. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.03741)  | ` I2E` |HUST| I2E: From Image Pixels to Actionable Interactive Environments for Text-Guided Image Editing | ---| Jan. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.15286 )  | ` Iterative-Image-Gen` | CMU | Iterative Refinement Improves Compositional Image Generation | [![GitHub Stars](https://img.shields.io/github/stars/shantanuj/Iterative-Image-Gen?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/shantanuj/Iterative-Image-Gen)| Jan. 2026 |
+| <a href="https://arxiv.org/abs/2511.23002"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `JarvisEvo` | Tencent Hunyuan| JarvisEvo: Towards a Self-Evolving Photo Editing Agent with Synergistic Editor-Evaluator Optimization| [![GitHub Stars](https://img.shields.io/github/stars/LYL1015/JarvisEvo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/LYL1015/JarvisEvo)| Dec. 2025 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.05965)  | ` EditThinker` | Beihang University | EditThinker: Unlocking Iterative Reasoning for Any Image Editor| [![GitHub Stars](https://img.shields.io/github/stars/appletea233/EditThinker?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/appletea233/EditThinker)| Dec. 2025 |
