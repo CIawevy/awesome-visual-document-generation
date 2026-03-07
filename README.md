@@ -15,7 +15,6 @@ A curated list of resources on Generative Visual Documents, focusing on the auto
 - [📄 Academic Presentation Generation](#-Academic-Presentation-Generation )
 - [📄 Poster Generation](#-poster-generation)
 - [📄 Diagram Generation](#-diagram-generation)
-- [📄 Datasets & Benchmarks](#-datasets-and-benchmarks)
 - [📄 Visual Text Generation](https://github.com/Yuliang-Liu/AWESOME-OCR-LLM?tab=readme-ov-file#-visual-text-generation)
 - [📄 Agentic Image Editing](#-agentic-image-editing)
 
@@ -55,10 +54,11 @@ A curated list of resources on Generative Visual Documents, focusing on the auto
 | -  | `Paper2Any (Paper2PPT/PDF2PPT)` | OpenDCAI | Paper2Any: Focus on paper multimodal workflows: from paper PDFs/screenshots/text to one-click generation of model diagrams, technical roadmaps, experimental plots, and slide decks| [![GitHub Stars](https://img.shields.io/github/stars/OpenDCAI/Paper2Any?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/OpenDCAI/Paper2Any) | Oct. 2025 |
 | <a href="https://arxiv.org/abs/2505.21497"><img src="./figs/NeurIPS-logo.png" width="80"></a>   | ` Paper2Poster ` |  University of Waterloo | Paper2Poster: Multimodal Poster Automation from Scientific Papers | [![GitHub Stars](https://img.shields.io/github/stars/Paper2Poster/Paper2Poster?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Paper2Poster/Paper2Poster) | May. 2025 |
 | <a href="https://arxiv.org/abs/2501.030936"><img src="./figs/EMNLP-logo.png" width="80"></a>   | ` PPTAgent ` |  Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | [![GitHub Stars](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/icip-cas/PPTAgent) | Jan. 2025 |
-## 📜 Poster Generation
+## 📜 Poster Generation 
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | <a href="https://arxiv.org/abs/2602.12127"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `PosterOmni` | The Hong Kong University of Science and Technology (Guangzhou)  | PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback | [![GitHub Stars](https://img.shields.io/github/stars/MeiGen-AI/PosterOmni?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/MeiGen-AI/PosterOmni)| Feb. 2026 |
+|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.27452 )  | ` MiLDEBench ` |  University of California, Davis  | MiLDEdit: Reasoning-Based Multi-Layer Design Document Editing（. Examples of MiLDEBench. Our benchmark is the first targeting to transparent-background, multi-layer design document editing.） | --- | Jan. 2026 |
 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.17188 )  | `Postergen` | Stony Brook University| Postergen: Aesthetic-aware paper-to-poster generation via multi-agent llms| [![GitHub Stars](https://img.shields.io/github/stars/Y-Research-SBU/PosterGen?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Y-Research-SBU/PosterGen) | Aug. 2025 |
 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.04218 )  | `  DreamPoster ` | Intelligent Creation Lab, ByteDance| DreamPoster: A Unified Framework for Image-Conditioned Generative Poster Design| --- | Jul. 2025 |
 | <a href="https://arxiv.org/abs/2506.10741"><img src="./figs/ICLR-logo.png" width="80"></a> |  `PosterCraft` |  The Hong Kong University of Science and Technology (Guangzhou) | PosterCraft: Rethinking High-Quality Aesthetic Poster Generation in a Unified Framework | [![GitHub Stars](https://img.shields.io/github/stars/Ephemeral182/PosterCraft?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Ephemeral182/PosterCraft)| Jun. 2025 |
@@ -72,12 +72,6 @@ A curated list of resources on Generative Visual Documents, focusing on the auto
 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.23265 )  | `PaperBanana` | Peking University | PaperBanana: Automating Academic Illustration for AI Scientists | [![GitHub Stars](https://img.shields.io/github/stars/dwzhu-pku/PaperBanana?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dwzhu-pku/PaperBanana) | Jan. 2026 |
 | <a href="https://arxiv.org/abs/2512.13303"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `ShowTable` | USTC | ShowTable: Unlocking Creative Table Visualization with Collaborative Reflection and Refinement | [![GitHub Stars](https://img.shields.io/github/stars/ali-vilab/ShowTable?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ali-vilab/ShowTable)| Dec. 2025 |
 
-## 📚 Datasets & Benchmarks
-| Venue | Name | Primary affiliation | Title  | GitHub | Date |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| <a href="https://arxiv.org/abs/2602.20903"><img src="./figs/CVPR-logo.jpg" width="80"></a> |  `TextPecker` | HUST| TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering | [![GitHub Stars](https://img.shields.io/github/stars/CIawevy/TextPecker?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/CIawevy/TextPecker)| Feb. 2026 |
-|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.27452 )  | ` MiLDEBench ` |  University of California, Davis  | MiLDEdit: Reasoning-Based Multi-Layer Design Document Editing（. Examples of MiLDEBench. Our benchmark is the first targeting to transparent-background, multi-layer design document editing.） | --- | Jan. 2026 |
-|  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22373 )  | `  VisJudge-Bench ` |  The Hong Kong University of Science and Technology (Guangzhou)  | VisJudge-Bench: Aesthetics and Quality Assessment of Visualizations | [![GitHub Stars](https://img.shields.io/github/stars/HKUSTDial/VisJudgeBench?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HKUSTDial/VisJudgeBench) | Oct. 2025 |
 
 ## 🖼️ Agentic Image Editing
 | Venue | Name | Primary affiliation | Title  | GitHub | Date |
